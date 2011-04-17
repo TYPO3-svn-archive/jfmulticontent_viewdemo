@@ -115,7 +115,7 @@ class tx_jfmulticontent_viewdemo
 	 * Returns the name of the view (readable)
 	 * @return string
 	 */
-	public function getname() {
+	public function getName() {
 		return $GLOBALS['LANG']->sL('LLL:EXT:jfmulticontent_viewdemo/locallang.xml:identifier');
 	}
 
