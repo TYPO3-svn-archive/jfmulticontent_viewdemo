@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "jfmulticontent_viewdemo".
 #
-# Auto generated 15-04-2011 20:25
+# Auto generated 18-04-2011 08:17
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -29,7 +29,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 1,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '0.0.0',
+	'version' => '0.0.1',
 	'constraints' => array(
 		'depends' => array(
 			'cms' => '',
@@ -40,7 +40,9 @@ $EM_CONF[$_EXTKEY] = array(
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:8:{s:9:"ChangeLog";s:4:"eb8f";s:10:"README.txt";s:4:"ee2d";s:12:"ext_icon.gif";s:4:"1bdc";s:14:"ext_tables.php";s:4:"595f";s:14:"ext_tables.sql";s:4:"32a6";s:16:"locallang_db.xml";s:4:"1384";s:19:"doc/wizard_form.dat";s:4:"02a7";s:20:"doc/wizard_form.html";s:4:"76c7";}',
+	'_md5_values_when_last_written' => 'a:9:{s:36:"class.tx_jfmulticontent_viewdemo.php";s:4:"01ca";s:12:"ext_icon.gif";s:4:"73df";s:17:"ext_localconf.php";s:4:"5ae5";s:14:"ext_tables.php";s:4:"f0bd";s:14:"ext_tables.sql";s:4:"32a6";s:24:"ext_typoscript_setup.txt";s:4:"0353";s:13:"locallang.xml";s:4:"9b3e";s:16:"locallang_db.xml";s:4:"1384";s:14:"doc/manual.sxw";s:4:"4102";}',
+	'suggests' => array(
+	),
 );
 
 ?>
