@@ -1,0 +1,3 @@
+
+# cat=basic/enable/10; type=boolean; label=Activate FE-User for jfmulticontent: If set, the FE-User view will be added to dropdown
+activateFE = 1

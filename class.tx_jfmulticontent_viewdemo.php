@@ -142,6 +142,15 @@ class tx_jfmulticontent_viewdemo
 	public function getIds() {
 		return $this->ids;
 	}
+
+	/**
+	 * Returns true if view is active
+	 * @return array
+	 */
+	public function isActive() {
+		$confArr = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['jfmulticontent_viewdemo']);
+		return (isset($confArr['activateFE']) ? $confArr['activateFE'] : true);
+	}
 }
 
 if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/jfmulticontent/class.tx_jfmulticontent_viewdemo.php']) {
