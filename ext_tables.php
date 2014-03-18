@@ -15,7 +15,7 @@ $tempColumns = array(
 			'allowed' => 'fe_users',
 			'size' => 12,
 			'minitems' => 0,
-			'maxitems' => 12,
+			'maxitems' => 1000,
 		)
 	),
 );
